@@ -1,0 +1,22 @@
+{
+  "name": "raffle-api",
+  "version": "1.0.0",
+  "description": "Raffle database program",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Group 3",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.8",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
